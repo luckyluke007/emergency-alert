@@ -1,0 +1,226 @@
+body, 
+html {
+  
+  color: $white;
+  font-family: $font-family;
+  margin: $center;
+  width: $fullwh;
+  
+}
+  
+  
+header {
+  
+  width: $fullwh;
+
+}
+
+header {
+  
+  background: $blue;
+  display: grid;
+  margin-bottom: .25em;
+
+}
+  
+  
+.wrapper {
+  
+  display: block;
+  padding: $zero;
+  margin: $center;
+  width: $fullwh;
+
+}
+
+.row {
+  
+  display: grid;
+  margin: $center;
+  max-width: $contentwidth;
+  padding: $zero;
+  width: $fullwh;
+
+}
+  
+.logo {
+  
+  grid-column-start: 1;
+  padding: 10px 20px;
+
+}
+  
+.content {
+  
+  display: block;
+  margin: $center;
+  padding: 10px 20px;
+
+}
+  
+.status {
+  
+  border-radius: 5px;
+  color: $dark;
+  display: block;
+  font-size: 1.25em;
+  font-weight: normal;
+  padding: 10px;
+  text-align: left;
+
+  span {
+    
+    display: inline-block;
+    color: #980202;
+    float: left;
+    padding-right: .25em;
+
+  }
+}
+  
+
+table {
+
+  margin: $center;
+
+  td, th {
+
+    border-bottom: 1px solid #333;
+    display: table-cell;
+    line-height: 20px;
+    padding: .5em .25em 1em;
+    text-align: left;
+
+    &:first-child {
+      
+      font-weight: 600;
+      padding-right: .5em;
+      text-align: right;
+      vertical-align: top;
+      white-space: nowrap;
+      width: 12%;
+
+    }
+  }
+}
+  
+      
+@media screen and (max-width: $mobile) {
+
+  .content {
+
+    width: auto;
+    margin: 0;
+
+  }
+    
+
+  .status {
+
+    margin: 0 auto;
+
+  }
+  
+  .contentbody {
+    
+    width: $fullwh;
+
+  }
+
+}
+    
+@media screen and (min-width: $mobile) {
+
+  .content {
+
+    width: auto;
+    margin: 0;
+
+  }
+    
+  .status {
+    
+    margin: 0 auto;
+
+  }
+  
+  .contentbody {
+    
+    width: $fullwh;
+
+  }
+
+}
+    
+
+@media screen and (min-width: $mobile-landscape) {
+
+  .content {
+
+    width: auto;
+    margin: 0;
+
+  }
+    
+
+  .status {
+    
+    margin: 0 auto;
+
+  }
+    
+  .contentbody {
+    
+    width: $fullwh;
+
+  }
+
+}
+  
+@media screen and (min-width: $tablet) {
+
+  .content {
+    
+    width: auto;
+    margin: 0;
+
+  }
+    
+
+  .status {
+
+    margin: 0 auto;
+
+  }
+  
+  .contentbody {
+
+    width: $contentwidth;
+
+  }
+
+}
+  
+@media screen and (min-width: $desktop) {
+  
+  .content {
+
+    width: $contentwidth;
+    margin: 10px auto;
+
+  }
+    
+
+  .status {
+
+    margin: 0 auto;
+
+  }
+  
+  .contentbody {
+
+    width: $contentwidth;
+    
+  }
+
+}
