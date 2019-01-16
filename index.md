@@ -1,6 +1,6 @@
 ---
 title: Emergency Update
-layout: page
+layout: default
 author: ttran34
 permalink: /emergency-testing/
 tags:
