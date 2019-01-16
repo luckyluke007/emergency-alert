@@ -3,6 +3,10 @@ title: Emergency Update
 layout: page
 author: ttran34
 permalink: /emergency-testing/
+tags:
+- 
+layout: default
+status: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet dignissim sapien id feugiat. 
 source-id: 1zrlvJAUco93HTFpk9uZLopE03S3_cpNHROuj8me0L2o
 published: true
 ---
