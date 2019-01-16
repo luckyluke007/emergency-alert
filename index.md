@@ -10,10 +10,6 @@ status: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperd
 source-id: 1zrlvJAUco93HTFpk9uZLopE03S3_cpNHROuj8me0L2o
 published: true
 ---
-layout: default
-
-status: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet dignissim sapien id feugiat. 
-
 ### **Date:** MM/DD/YYYY
 
 <table>
