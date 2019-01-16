@@ -3,7 +3,7 @@ title: Emergency Test
 layout: default
 author: ttran34
 permalink: /
-status: Message is here
+current-status-message: Message is here
 source-id: 1zrlvJAUco93HTFpk9uZLopE03S3_cpNHROuj8me0L2o
 published: true
 ---
