@@ -6,18 +6,6 @@ permalink: /emergency-testing/
 source-id: 1zrlvJAUco93HTFpk9uZLopE03S3_cpNHROuj8me0L2o
 published: true
 ---
-title: Emergency Test
-
-layout: default
-
-author: UC Santa Cruz
-
-permalink: /
-
-current-status-message: Hello world!
-
-published: true
-
 ### **Date:** MM/DD/YYYY
 
 <table>
