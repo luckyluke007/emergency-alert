@@ -32,7 +32,7 @@ published: true
     <td>Updates</td>
   </tr>
   <tr>
-    <td>10:00 AM</td>
+    <td>12:00 AM</td>
     <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet dignissim sapien id feugiat. Integer sit amet nulla nisl. Donec ultrices enim nec iaculis bibendum. Sed posuere faucibus magna. Donec vitae odio urna. Sed libero risus, facilisis vitae odio a, feugiat posuere odio. Donec nec tellus auctor nisl condimentum venenatis.</td>
   </tr>
 </table>
