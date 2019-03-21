@@ -1,0 +1,117 @@
+body,
+html {
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 100%; }
+
+header {
+  width: 100%; }
+
+header {
+  background: #01589d;
+  display: grid;
+  margin-bottom: .25em; }
+
+.wrapper {
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%; }
+
+.row {
+  display: grid;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0;
+  width: 100%; }
+
+.logo {
+  grid-column-start: 1;
+  padding: 10px 20px; }
+
+.content {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px; }
+
+.status {
+  border-radius: 5px;
+  color: #333;
+  display: block;
+  font-size: 1.25em;
+  font-weight: normal;
+  padding: 10px;
+  text-align: left; }
+  .status span {
+    display: inline-block;
+    color: #980202;
+    float: left;
+    padding-right: .25em; }
+
+table {
+  margin: 0 auto; }
+  table td, table th {
+    border-bottom: 1px solid #333;
+    display: table-cell;
+    line-height: 20px;
+    padding: .5em .25em 1em;
+    text-align: left; }
+    table td:first-child, table th:first-child {
+      font-weight: 600;
+      padding-right: .5em;
+      text-align: right;
+      vertical-align: top;
+      white-space: nowrap;
+      width: 12%; }
+
+@media screen and (max-width: 31.1875em) {
+  .content {
+    width: auto;
+    margin: 0; }
+
+  .status {
+    margin: 0 auto; }
+
+  .contentbody {
+    width: 100%; } }
+@media screen and (min-width: 31.1875em) {
+  .content {
+    width: auto;
+    margin: 0; }
+
+  .status {
+    margin: 0 auto; }
+
+  .contentbody {
+    width: 100%; } }
+@media screen and (min-width: 37.5em) {
+  .content {
+    width: auto;
+    margin: 0; }
+
+  .status {
+    margin: 0 auto; }
+
+  .contentbody {
+    width: 100%; } }
+@media screen and (min-width: 48em) {
+  .content {
+    width: auto;
+    margin: 0; }
+
+  .status {
+    margin: 0 auto; }
+
+  .contentbody {
+    width: 900px; } }
+@media screen and (min-width: 60em) {
+  .content {
+    width: 900px;
+    margin: 10px auto; }
+
+  .status {
+    margin: 0 auto; }
+
+  .contentbody {
+    width: 900px; } }
