@@ -6,5 +6,12 @@ rvm:
  	only:
  	- master
 
-script: bundle exec jekyll build
-bundle exec htmlproofer ./_site
+script: ./script/cibuild
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+sudo: false
+
+cache: bundler
