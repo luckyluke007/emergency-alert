@@ -6,7 +6,10 @@ rvm:
  	only:
  	- master
 
-script: ./script/cibuild
+install:
+  - bundle install
+
+script: bundle exec jekyll build
 
 env:
   global:
